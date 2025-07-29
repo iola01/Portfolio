@@ -26,9 +26,9 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="A real-time, anonymous chat platform that pairs users by language without accounts or personal information. Built with Node.js, Express, and Socket.IO, it offers instant matching, partner disconnection handling, and complete privacy."
+              ghLink="https://github.com/iola01/anonymous-chat-app"
+              demoLink="https://onlychat-yhcu.onrender.com/"
             />
           </Col>
 
@@ -36,10 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Active Directory"
+              description="A hands-on lab showcasing domain controller setup, OU design, Group Policy, and user/computer management using Windows Server 2022 and VMware. Built for learning and demonstrating IT administration skills."
+              ghLink="https://github.com/iola01/ACTIVE-DIRECTORY"
             />
           </Col>
 
@@ -47,14 +46,13 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Pi-Hole"
+              description="A Raspberry Pi-based DNS server that blocks ads, trackers, and malicious domains across my home network. This project enhances privacy, filters 200K+ domains, and provides hands-on experience with DNS management, Linux, and home networking."
+              ghLink="https://github.com/iola01/Pi-hole"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +84,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
